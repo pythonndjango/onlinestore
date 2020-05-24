@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block content1 %}
+<h3>Home Page</h3>
+
+
+    <p>Products: {{ object.name }}</p>
+    <p>Manufacturer: {{ object.manufacturer }}</p>
+    <p>Price: {{ object.price }}</p>
+
+<p>Welcome to Website , {% if user.is_authenticated %} <label style="color: red;">{{ user }}</label> {% else %} and See
+    you again! {% endif %} </p>
+<p><strong>Total users resgisted: <label for="" style="color: violet;">{{ count }}</label></strong></p>
+{% endblock%}

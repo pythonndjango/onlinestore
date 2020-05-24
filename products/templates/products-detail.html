@@ -1,0 +1,17 @@
+
+{% extends 'base.html' %}
+
+
+{% block content1 %}
+    <h3>{{ object.name }}</h3>
+
+    <p>Products: {{ object.name }}</p>
+    <p>Manufacturer: {{ object.manufacturer }}</p>
+    <p>Description:{{ object.description }} </p>
+    <p>Price: {{ object.price }}</p>
+    <p>Quantity: {{ object.quantity }}</p>
+    <p>Shipping_cost:{{ object.shipping_cost }} </p>
+
+
+    <img src="{{ object.photo.url }}" alt="photo products">
+{% endblock%}

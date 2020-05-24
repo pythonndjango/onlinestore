@@ -1,0 +1,35 @@
+body{
+    font-weight: 100;
+}
+.btn.btn-secondary.my-2.my-sm-0 {
+    margin-right: 30px;
+}
+.btn.btn-warning {
+    margin: 6px;
+}
+.btn.btn-danger {
+ font-weight: bold;
+}
+
+div .row {
+    margin-top: 20px;
+}
+.requiredField {
+    font-weight: bold;
+}
+.asteriskField {
+    display: none;
+}
+div .card {
+    border-style: groove;
+    background-origin: padding-box;
+}
+#navbarSupportedContent li a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: inherit;
+}
+.dropdown-menu {
+    background: #007bff;
+}
