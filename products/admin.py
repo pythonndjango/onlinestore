@@ -1,9 +1,0 @@
-from django.contrib import admin
-from .models import Product,Manufacturer
-# Register your models here.
-
-
-admin.site.register(Product)
-admin.site.register(Manufacturer)
-# user name : product
-# password: pro
