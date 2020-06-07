@@ -33,3 +33,7 @@ class ProductDetaiView(DetailView):
 class ProductListView(ListView):
     model = Product
     template_name = "products-list.html"
+
+class ManufacturerListView(ListView):
+    model = Product
+    template_name = "manufacturer-detail.html"
